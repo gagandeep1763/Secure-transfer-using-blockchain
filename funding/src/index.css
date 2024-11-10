@@ -1,0 +1,108 @@
+/* App.css */
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.card {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1, h3 {
+  color: #2e7d32;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #43a047, #2e7d32);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+  text-transform: uppercase;
+}
+
+.card-body {
+  padding: 30px 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #43a047;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #43a047;
+  box-shadow: 0 0 8px rgba(67, 160, 71, 0.3);
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #43a047, #2e7d32);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(67, 160, 71, 0.4);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #388e3c, #2e7d32);
+  transform: translateY(-3px);
+}
+
+.card-footer {
+  padding: 12px;
+  font-size: 0.9rem;
+  background-color: #f9f9f9;
+  color: #888;
+  border-top: 1px solid #ddd;
+  font-style: italic;
+  border-radius: 0 0 12px 12px;
+}
+
+h1, h3 {
+  color: #2e7d32;
+  font-weight: 700;
+}
